@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--Home Page-->
+    <style name="bg">
+        <item name="android:background">@color/background</item>
+    </style>
+    <style name="mainbg">
+        <item name="android:background">@drawable/background</item>
+    </style>
+    <style name="button">
+        <item name="android:background">@color/button</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:buttonCornerRadius">30dp</item>
+    </style>
+    <style name="title">
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">50dp</item>
+    </style>
+    <style name="description">
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="title2">
+        <item name="android:textSize">30dp</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+    <style name="main">
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textSize">60dp</item>
+    </style>
+    <!--Home Page-->
+
+
+
+
+
+</resources>
+
