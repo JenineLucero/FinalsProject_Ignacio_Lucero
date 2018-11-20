@@ -8,41 +8,77 @@
     <string name="volcwhat">
         WHAT TO DO WHEN VOLCANIC ERRUPTION COMES:
     </string>
-    <string name="typhoontodo">
-    Stay inside the house.
-    Always keep yourself updated with the latest weather report.
-    If there is a need to move to an evacuation center, follow these reminders.
-    Evacuate calmly.
-    Close the windows and turn off the main power switch.
-    Put important appliances and belongings in a high ground.
-    Avoid the way leading to the river.
 
+    <string name="typhoontodo">
+        Stay inside the house.</string>
+    <string name="typhoontodo2">
+        Always keep yourself updated with the latest weather report.</string>
+    <string name="typhoontodo3">
+        If there is a need to move to an evacuation center, follow these reminders.</string>
+    <string name="typhoontodo4">Evacuate calmly.</string>
+    <string name="ty5">
+        Close the windows and turn off the main power switch.</string>
+    <string name="ty6">
+    Put important appliances and belongings in a high ground.
     </string>
+    <string name="ty7">
+    Avoid the way leading to the river.
+    </string>
+
     <string name="floodtodo">
     Be Alert
-    Don’t drive unless you have to.If you must drive, travel with care
-    NEVER drive through flooded roadways. STOP! Turn Around Don’t Drown.
-    Get to high ground – Climb to safety!
-    Evacuate immediately, if you think you are at risk or are advised to do so!
-    Put important appliances and belongings in a high ground.
-
     </string>
+    <string name="fl1">
+    Don’t drive unless you have to.If you must drive, travel with care
+    </string>
+    <string name="fl2">
+    NEVER drive through flooded roadways. STOP! Turn Around Don’t Drown.
+    </string>
+    <string name="fl3">
+    Get to high ground – Climb to safety!
+    </string>
+    <string name="fl4">
+    Evacuate immediately, if you think you are at risk or are advised to do so!
+    </string>
+    <string name="fl5">
+    Put important appliances and belongings in a high ground.
+    </string>
+
 
     <string name="landtodo">
     Listen to local news stations on a battery-powered radio for warnings of heavy rainfall.
-    Listen for unusual sounds that might indicate moving debris, such as trees cracking or boulders knocking together.
-    Move away from the path of a landslide or debris flow as quickly as possible. Look upstream before crossing a bridge and do not cross the bridge if a mudflow is approaching.
-    Avoid river valleys and low-lying areas.
-
     </string>
+    <string name="la2">
+    Listen for unusual sounds that might indicate moving debris, such as trees cracking or boulders knocking together.
+    </string>
+    <string name="la3">
+    Move away from the path of a landslide or debris flow as quickly as possible.
+    </string>
+    <string name="la4">
+    Look upstream before crossing a bridge and do not cross the bridge if a mudflow is approaching.
+    </string>
+    <string name="la5">
+    Avoid river valleys and low-lying areas.
+    </string>
+
+
     <string name="volctodo">
     Listen for emergency information and alerts.
-    Follow evacuation or shelter orders. If advised to evacuate, then do so early.
-    Avoid areas downstream of the eruption.
-    Protect yourself from falling ash.
-    Do not drive in heavy ash fall.
-
     </string>
+    <string name="volc1">
+    Follow evacuation or shelter orders. If advised to evacuate, then do so early.
+    </string>
+    <string name="volc2">
+    Avoid areas downstream of the eruption.
+    </string>
+    <string name="volc3">
+    Protect yourself from falling ash.
+    </string>
+    <string name="volc4">
+    Do not drive in heavy ash fall.
+    </string>
+
+
     <string name="app_name">FinalsProject_Ignacio_Lucero</string>
     <string name="title">iCare</string>
     <string name="button1">Let us Get Started</string>
@@ -69,4 +105,45 @@
     <string name="typhoonwhat">WHAT TO DO WHEN TYPHOON COMES:
     </string>
 
+    <string name="starter">
+     DISASTER STARTER PACK
+    </string>
+
+    <!--STARTER CHECKLIST-->
+    <string name="cb1">
+    Three-day supply of water, with one gallon of water per person per day 
+    </string>
+    <string name="cb2">
+    Three-day supply of nonperishable food
+    </string>
+    <string name="cb3">
+    Manual can opener
+    </string>
+    <string name="cb4">
+    First-aid kit
+    </string>
+    <string name="cb5">
+    Radio
+    </string>
+    <string name="cb6">
+    Flashlights and lanterns
+    </string>
+    <string name="cb7">
+    Batteries
+    </string>
+    <string name="cb8">
+    Whistle to signal for help
+    </string>
+    <string name="cb9">
+    Prescription medications
+    </string>
+    <string name="cb10">
+    Battery-operated or solar cellphone charger
+    </string>
+
+    <!---->
+
+
+    <string name="save">SAVE</string>
+    <string name="done">DONE</string>
 </resources>

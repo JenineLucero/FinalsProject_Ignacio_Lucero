@@ -2,49 +2,16 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    style="@style/bg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    style="@style/bg"
     tools:context=".FloodToDo">
-
-    <TextView
-        android:id="@+id/textView3"
-        style="@style/title2"
-        android:layout_width="294dp"
-        android:layout_height="118dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/floodwhat"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.652" />
-
-    <TextView
-        android:id="@+id/textView4"
-        style="@style/description"
-        android:layout_width="320dp"
-        android:layout_height="348dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/floodtodo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.852" />
-
 
     <Button
         android:id="@+id/btn_back"
         style="@style/button"
-        android:layout_width="52dp"
-        android:layout_height="23dp"
+        android:layout_width="58dp"
+        android:layout_height="26dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -57,5 +24,85 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="336dp"
+        android:layout_height="560dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+
+                android:text="@string/floodwhat"
+                app:layout_constraintBottom_toTopOf="@+id/textView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView3"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/floodtodo" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView4"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fl1" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView5"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fl2" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView6"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fl3" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView7"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fl4" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView8"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fl5" />
+        </LinearLayout>
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>
 

@@ -7,40 +7,89 @@
     style="@style/bg"
     tools:context=".FloodToDo">
 
-    <TextView
-        android:id="@+id/textView3"
-        style="@style/title2"
-        android:layout_width="303dp"
-        android:layout_height="103dp"
+    <ScrollView
+        android:layout_width="327dp"
+        android:layout_height="545dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/typhoonwhat"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.676"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <TextView
-        android:id="@+id/textView4"
-        style="@style/description"
-        android:layout_width="312dp"
-        android:layout_height="317dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/typhoontodo"
+        android:layout_marginTop="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.676"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603" />
+        app:layout_constraintTop_toTopOf="parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/title2"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+
+                android:text="@string/typhoonwhat"
+                app:layout_constraintBottom_toTopOf="@+id/textView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView3"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/typhoontodo" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView4"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/typhoontodo2" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView5"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/typhoontodo3" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView6"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/typhoontodo4" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView7"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ty5" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView8"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ty6" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView9"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ty7" />
+        </LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/btn_back"

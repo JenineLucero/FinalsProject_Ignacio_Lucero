@@ -16,7 +16,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="324dp"
+        android:layout_marginTop="348dp"
         android:text="@string/title"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,7 @@
 
     <Button
         android:id="@+id/btn_lets"
-        style="@style/button"
+        style="@style/mainbtn"
         android:layout_width="195dp"
         android:layout_height="58dp"
         android:layout_marginBottom="8dp"
@@ -38,8 +38,8 @@
         android:text="@string/button1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.815" />
+        app:layout_constraintVertical_bias="0.866" />
 </android.support.constraint.ConstraintLayout>

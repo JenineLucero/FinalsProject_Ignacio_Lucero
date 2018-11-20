@@ -24,7 +24,8 @@
         <activity android:name=".FloodToDo" />
         <activity android:name=".TyphoonToDo" />
         <activity android:name=".LandSlideToDo" />
-        <activity android:name=".VolcanicToDo"></activity>
+        <activity android:name=".VolcanicToDo" />
+        <activity android:name=".ToBring" />
     </application>
 
 </manifest>

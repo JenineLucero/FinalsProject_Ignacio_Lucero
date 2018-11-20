@@ -3,6 +3,7 @@ package jeninemay.lucero.com.finalsproject_ignacio_lucero;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class Flood extends AppCompatActivity {
@@ -11,7 +12,45 @@ public class Flood extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flood);
+        Log.d( "LIFECYCLE", "onCreate() has executed...");
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d("LIFECYCLE", "onStart() has executed");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.d("LIFECYCLE", "onResume() has executed");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.d("LIFECYCLE", "onPause() has executed");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.d("LIFECYCLE", "onStop() has executed");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.d("LIFECYCLE", "onRestart() has executed");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d("LIFECYCLE", "onDestroy() has executed");
+    }
+
 
     public void process3(View v) {
         Intent i = null, chooser = null;
@@ -21,6 +60,11 @@ public class Flood extends AppCompatActivity {
 
         } else if (v.getId() == R.id.flood_what) {
             i = new Intent(this, FloodToDo.class);
+            startActivity(i);
+
+        }
+        else if (v.getId() == R.id.flood_bring) {
+            i = new Intent(this, ToBring.class);
             startActivity(i);
 
         }

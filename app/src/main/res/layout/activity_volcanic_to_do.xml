@@ -7,38 +7,76 @@
     style="@style/bg"
     tools:context=".FloodToDo">
 
-    <TextView
-        android:id="@+id/textView3"
-        style="@style/title2"
-        android:layout_width="298dp"
-        android:layout_height="144dp"
+    <ScrollView
+        android:layout_width="335dp"
+        android:layout_height="543dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/volcwhat"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.789" />
-
-    <TextView
-        android:id="@+id/textView4"
-        style="@style/description"
-        android:layout_width="305dp"
-        android:layout_height="282dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/volctodo"
+        android:layout_marginTop="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.73"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.706" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/title2"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/volcwhat"
+                app:layout_constraintBottom_toTopOf="@+id/textView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.789" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView3"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/volctodo" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView4"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/volc1" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView5"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/volc2" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView6"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/volc3" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView7"
+                style="@style/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/volc4" />
+
+        </LinearLayout>
+    </ScrollView>
 
 
     <Button

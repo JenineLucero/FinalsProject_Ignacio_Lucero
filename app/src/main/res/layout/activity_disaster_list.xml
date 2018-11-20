@@ -10,8 +10,8 @@
     <TextView
         android:id="@+id/textView2"
         style="@style/title"
-        android:layout_width="239dp"
-        android:layout_height="91dp"
+        android:layout_width="265dp"
+        android:layout_height="65dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -19,104 +19,24 @@
         android:text="@string/title2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.08" />
-
-    <TextView
-        android:id="@+id/txtflood"
-        style="@style/title2"
-        android:layout_width="110dp"
-        android:layout_height="53dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="8dp"
-        android:clickable="true"
-        android:onClick="process2"
-        android:textColorLink="@color/button"
-        android:text="@string/flood"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView4"
-        app:layout_constraintHorizontal_bias="0.385"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.933" />
-
-    <TextView
-        android:id="@+id/txttyphoon"
-        style="@style/title2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="268dp"
-        android:clickable="true"
-        android:onClick="process2"
-        android:textColorLink="@color/button"
-        android:text="@string/typhoon"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.856"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.302" />
-
-    <TextView
-
-        android:id="@+id/txtland"
-        style="@style/title2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="8dp"
-        android:clickable="true"
-        android:onClick="process2"
-        android:text="@string/landslide"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView6"
-        app:layout_constraintHorizontal_bias="0.48"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.512" />
-
-    <TextView
-        android:id="@+id/txtvolcanic"
-        style="@style/title2"
-        android:layout_width="151dp"
-        android:layout_height="91dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:clickable="true"
-        android:onClick="process2"
-        android:text="@string/volcanic"
-        android:textColorLink="@color/button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.982" />
+        app:layout_constraintVertical_bias="0.084" />
 
 
     <Button
-        style="@style/button"
         android:id="@+id/btn_back"
-        android:layout_width="62dp"
-        android:layout_height="43dp"
+        style="@style/button"
+        android:layout_width="58dp"
+        android:layout_height="26dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:onClick="process2"
-        android:textColorLink="@color/button"
         android:text="@string/back"
+        android:textColorLink="@color/button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -124,66 +44,185 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="142dp"
-        android:layout_height="134dp"
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="128dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toStartOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.91"
-        app:srcCompat="@drawable/land" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="156dp"
-        android:layout_height="133dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="128dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.903"
-        app:srcCompat="@drawable/typhoon" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="148dp"
-        android:layout_height="157dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="204dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="316dp"
-        app:layout_constraintBottom_toTopOf="@+id/txtflood"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/flood" />
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            style="@style/dis"
+            android:layout_width="153dp"
+            android:layout_height="181dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.914"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.862">
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="142dp"
-        android:layout_height="146dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="320dp"
-        app:layout_constraintBottom_toTopOf="@+id/txtvolcanic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.695"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/volcanic" />
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="130dp"
+                android:layout_height="127dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="2dp"
+                app:srcCompat="@drawable/volcanic"
+                tools:layout_editor_absoluteX="196dp"
+                tools:layout_editor_absoluteY="421dp" />
+
+            <TextView
+                android:id="@+id/txtvolcanic"
+                style="@style/title3"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+
+                android:clickable="true"
+                android:onClick="process2"
+                android:shadowColor="@color/shadow"
+                android:text="@string/volcanic"
+                android:textColorLink="@color/button"
+                tools:layout_editor_absoluteX="225dp"
+                tools:layout_editor_absoluteY="468dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            style="@style/dis"
+            android:layout_width="142dp"
+            android:layout_height="181dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout3"
+            app:layout_constraintHorizontal_bias="0.434"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.864">
+
+            <ImageView
+
+                android:id="@+id/imageView4"
+                android:layout_width="129dp"
+                android:layout_height="140dp"
+                android:layout_marginHorizontal="5dp"
+                app:srcCompat="@drawable/flood"
+                tools:layout_editor_absoluteX="39dp"
+                tools:layout_editor_absoluteY="328dp" />
+
+            <TextView
+
+                android:id="@+id/txtflood"
+                style="@style/title3"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:clickable="true"
+                android:onClick="process2"
+                android:text="@string/flood"
+                android:textColorLink="@color/button"
+                tools:layout_editor_absoluteY="506dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            style="@style/dis"
+            android:layout_width="153dp"
+            android:layout_height="182dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.911"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.846">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="129dp"
+                android:layout_height="144dp"
+                android:layout_marginHorizontal="10dp"
+                app:srcCompat="@drawable/typhoon"
+                tools:layout_editor_absoluteX="203dp"
+                tools:layout_editor_absoluteY="183dp" />
+
+            <TextView
+                android:id="@+id/txttyphoon"
+                style="@style/title3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:clickable="true"
+                android:onClick="process2"
+                android:text="@string/typhoon"
+                android:textColorLink="@color/button"
+                tools:layout_editor_absoluteX="251dp"
+                tools:layout_editor_absoluteY="380dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            style="@style/dis"
+            android:layout_width="143dp"
+            android:layout_height="182dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout2"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.846">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+
+                android:elevation="10dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/land"
+                tools:layout_editor_absoluteX="39dp"
+                tools:layout_editor_absoluteY="359dp" />
+
+            <TextView
+
+                android:id="@+id/txtland"
+                style="@style/title3"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+
+                android:clickable="true"
+                android:elevation="10dp"
+                android:onClick="process2"
+                android:padding="10dp"
+                android:text="@string/landslide"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="308dp" />
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+
 </android.support.constraint.ConstraintLayout>
