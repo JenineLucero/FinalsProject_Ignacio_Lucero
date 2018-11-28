@@ -20,7 +20,7 @@
         <item name="android:buttonCornerRadius">30dp</item>
         <item name="android:elevation">20dp</item>
         <item name="android:shadowColor">@color/shadow</item>
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/red</item>
     </style>
     <style name="title">
         <item name="android:fontFamily">cursive</item>
@@ -56,7 +56,7 @@
         <item name="android:textSize">21dp</item>
         <item name="android:fontFamily">monospace</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/border</item>
 
         <item name="android:padding">10dp</item>
         <item name="android:elevation">10dp</item>
@@ -88,7 +88,7 @@
     <style name="check">
         <item name="android:fontFamily">serif-monospace</item>
         <item name="android:textSize">18dp</item>
-        <item name="android:colorAccent">@color/button</item>
+        <item name="android:colorAccent">@color/red</item>
     </style>
     <!--Home Page-->
 
@@ -117,7 +117,7 @@
     <style name="checklist">
         <item name="android:elevation">15dp</item>
         <item name="android:shadowColor">@color/shadow</item>
-        <item name="android:background">@color/red</item>
+        <item name="android:background">@color/white</item>
         <item name="android:layout_marginHorizontal">400dp</item>
     </style>
 </resources>

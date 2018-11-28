@@ -111,7 +111,7 @@
 
     <!--STARTER CHECKLIST-->
     <string name="cb1">
-    Three-day supply of water, with one gallon of water per person per day 
+    Three-day supply of water
     </string>
     <string name="cb2">
     Three-day supply of nonperishable food
@@ -132,13 +132,13 @@
     Batteries
     </string>
     <string name="cb8">
-    Whistle to signal for help
+    Whistle
     </string>
     <string name="cb9">
-    Prescription medications
+    Medicine
     </string>
     <string name="cb10">
-    Battery-operated or solar cellphone charger
+    Chargers
     </string>
 
     <!---->
