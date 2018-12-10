@@ -27,7 +27,7 @@ public class LandSlide extends AppCompatActivity {
 
         }
         else if (v.getId() == R.id.land_bring) {
-            i = new Intent(this, ToBring.class);
+            i = new Intent(this, ToBringLandslide.class);
             startActivity(i);
 
         }

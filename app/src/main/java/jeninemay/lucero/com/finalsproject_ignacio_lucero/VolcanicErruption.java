@@ -28,7 +28,7 @@ public class VolcanicErruption extends AppCompatActivity {
 
         }
         else if (v.getId() == R.id.volcanic_bring) {
-            i = new Intent(this, ToBring.class);
+            i = new Intent(this, ToBringVolcanicErruption.class);
             startActivity(i);
 
         }

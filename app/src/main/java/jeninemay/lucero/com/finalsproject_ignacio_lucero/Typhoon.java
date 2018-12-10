@@ -28,7 +28,7 @@ public class Typhoon extends AppCompatActivity {
 
         }
         else if (v.getId() == R.id.typhoon_bring) {
-            i = new Intent(this, ToBring.class);
+            i = new Intent(this, ToBringTyphoon.class);
             startActivity(i);
 
         }

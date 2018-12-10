@@ -30,7 +30,7 @@ public class Flood extends AppCompatActivity {
 
         }
         else if (v.getId() == R.id.flood_bring) {
-            i = new Intent(this, ToBring.class);
+            i = new Intent(this, ToBringTyphoon.class);
             startActivity(i);
 
         }

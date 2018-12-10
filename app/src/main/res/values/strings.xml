@@ -6,7 +6,7 @@
         WHAT TO DO WHEN LANDSLIDE COMES:
     </string>
     <string name="volcwhat">
-        WHAT TO DO WHEN VOLCANIC ERRUPTION COMES:
+        WHAT TO DO WHEN VOLCANIC ERUPTION COMES:
     </string>
 
     <string name="typhoontodo">
@@ -85,7 +85,7 @@
     <string name="title2">Disaster List </string>
     <string name="typhoon">Typhoon</string>
     <string name="landslide">Land Slide</string>
-    <string name="volcanic">Volcanic Erruption</string>
+    <string name="volcanic">Volcanic Eruption</string>
     <string name="flood">Flood</string>
     <string name="back">Back</string>
     <string name="flooddes">
@@ -105,45 +105,84 @@
     <string name="typhoonwhat">WHAT TO DO WHEN TYPHOON COMES:
     </string>
 
-    <string name="starter">
-     DISASTER STARTER PACK
-    </string>
-
-    <!--STARTER CHECKLIST-->
-    <string name="cb1">
-    Three-day supply of water
-    </string>
-    <string name="cb2">
-    Three-day supply of nonperishable food
-    </string>
-    <string name="cb3">
-    Manual can opener
-    </string>
-    <string name="cb4">
-    First-aid kit
-    </string>
-    <string name="cb5">
-    Radio
-    </string>
-    <string name="cb6">
-    Flashlights and lanterns
-    </string>
-    <string name="cb7">
-    Batteries
-    </string>
-    <string name="cb8">
-    Whistle
-    </string>
-    <string name="cb9">
-    Medicine
-    </string>
-    <string name="cb10">
-    Chargers
-    </string>
-
     <!---->
 
 
     <string name="save">SAVE</string>
     <string name="done">DONE</string>
+
+    <!--TO BRING-->
+    <string name="floodstarter">FLOOD STARTER PACK</string>
+    <string name="cbf1">
+    Bottled Water
+    </string>
+    <string name="cbf2">
+    Food
+    </string>
+    <string name="cbf3">
+    Clothes
+    </string>
+    <string name="cbf4">
+    First-aid kit
+    </string>
+    <string name="cbf5">
+    Radio
+    </string>
+    <string name="cbf6">
+    Cash
+    </string>
+    <string name="cbf7">
+    Batteries and Chargers
+    </string>
+    <string name="cbf8">
+    Whistle
+    </string>
+    <string name="cbf9">
+    Medicine
+    </string>
+    <string name="cbf10">
+    Rubber Boots
+    </string>
+
+    <!---->
+
+    <string name="typhoonstarter">TYPHOON STARTER PACK</string>
+
+    <string name="cbt1">Bottled Water</string>
+    <string name="cbt2">Food</string>
+    <string name="cbt3">First Aid Kit</string>
+    <string name="cbt4">Clothes</string>
+    <string name="cbt5">Flashlight and Batteries</string>
+    <string name="cbt6">Medicine</string>
+    <string name="cbt7">Umbrella or Raincoats</string>
+    <string name="cbt8">Whistle</string>
+    <string name="cbt9">Cash</string>
+    <string name="cbt10">Fully Charged Phone</string>
+    <string name="cbt11">Battery-Powered Radio</string>
+    <!---->
+
+    <string name="landstarter">LANDSLIDE STARTER PACK</string>
+
+    <string name="cbl1">Personal Belongings</string>
+    <string name="cbl2">Fully-Charged Phone</string>
+    <string name="cbl3">Flashlight</string>
+    <string name="cbl4">First-Aid Kit</string>
+    <string name="cbl5">Cash</string>
+    <string name="cbl6">Food</string>
+    <string name="cbl7">Water</string>
+
+    <!---->
+
+    <string name="volcanicstarter">VOLCANIC ERUPTION STARTER PACK</string>
+
+    <string name="cbv1">Food</string>
+    <string name="cbv2">Water</string>
+    <string name="cbv3">First Aid Kit</string>
+    <string name="cbv4">Medicine</string>
+    <string name="cbv5">Goggles</string>
+    <string name="cbv6">Masks</string>
+    <string name="cbv7">Sturdy Shoes</string>
+    <string name="cbv8">Batter-Powered Radio</string>
+    <string name="cb9">Fully-Charged Phone</string>
+    <!---->
 </resources>
