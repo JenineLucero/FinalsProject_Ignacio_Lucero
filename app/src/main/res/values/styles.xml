@@ -97,7 +97,7 @@
     </style>
     <style name="check">
         <item name="android:fontFamily">serif-monospace</item>
-        <item name="android:textSize">30dp</item>
+        <item name="android:textSize">25dp</item>
         <item name="android:colorAccent">@color/red</item>
 
     </style>
