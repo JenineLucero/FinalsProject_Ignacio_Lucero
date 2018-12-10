@@ -23,7 +23,7 @@ public class CheckboxPreference {
 
     public CheckboxPreference(Context context){
         this._context = context;
-        pref = _context.getSharedPreferences("storage", 0);
+        pref = _context.getSharedPreferences("storage", 7);
         editor = pref.edit();
     }
 
